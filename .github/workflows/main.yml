@@ -45,7 +45,7 @@ jobs:
         with:
           python-version: '3.13' 
       - name: flake8 Lint
-        uses: lukacat10/Flake8@v5
+        uses: py-actions/flake8@v2
         with:
           # Path to lint
           # Max line length
