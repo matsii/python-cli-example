@@ -45,4 +45,4 @@ jobs:
         with:
           python-version: "3.11"
       - name: flake8 Lint
-        uses: py-actions/flake8@v5
+        uses: lukacat10/Flake8@v5
